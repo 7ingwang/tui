@@ -1,0 +1,41 @@
+html, body, h1, h2, h3, h4, h5, h6, p, ul, ol, li{ margin: 0; padding: 0;}
+html, body{ height: 100vh;}
+html{ font-size: 16px;}
+body{ position: relative; font-family: Helvetica, Arial, sans-serif;}
+a{ text-decoration: none;}
+h2, h3, h4, h5, h6{ margin-bottom: 1rem;}
+ul,li{ list-style: none;}
+
+.blank{ margin-bottom: 1rem; min-height: 80vh; border: 1px dashed #ddd;}
+.row{ display: block;}
+[class^="col-"], [class*=" col-"] { display: block; width: 100%; margin-bottom: 1rem; min-height: 4rem; background: #eee; text-align: center; line-height: 4rem;}
+
+#header{ position: fixed; left: calc(-10vw - 2rem); top: 0; bottom: 0; padding: 1rem; width: 10vw; background: #2D4488; color: #FFF; transition: all .3s ease;}
+#header.open{ left: 0; width: 60vw;}
+#header a{ color: #FFF;}
+h1{ margin-bottom: 1rem;}
+#nav{ position: relative; display: flex; flex-direction: column;}
+#nav a{ display: block; padding: .5rem 0; color: #FFF;}
+#nav a:hover{ background: rgba(0,0,0,.1);}
+#btn-menu{ position: absolute; right: -3rem; top: 0; width: 2rem; height: 2rem; line-height: 2rem; text-align: center;}
+
+#content, #footer{ padding: 1rem;}
+
+@media (min-width: 576px) {
+
+}
+
+@media (min-width: 768px) { }
+
+@media (min-width: 992px) { }
+
+@media (min-width: 1200px) {
+.row{ display: flex; justify-content: space-between; margin-bottom: 1rem;}
+[class^="col-"], [class*=" col-"]{ margin-bottom: 0;}
+[class^="col-"] + [class^="col-"],
+[class*=" col-"] + [class*=" col-"]{ margin-left: 1rem;}
+
+#header{ left: 0; }
+#btn-menu{ display: none;}
+#content, #footer{ padding: 2rem 0 0 15vw;}
+}

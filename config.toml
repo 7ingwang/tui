@@ -2,3 +2,21 @@ baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "TUI"
 theme = "tui"
+
+
+# Navigation ##############################
+# main menu
+[[menu.main]]
+name = "TUI"
+url = "/#tui"
+weight = 1
+
+[[menu.main]]
+name = "Get start"
+url = "/#start"
+weight = 2
+
+[[menu.main]]
+name = "Layout"
+url = "/#layout"
+weight = 3
