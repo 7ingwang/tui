@@ -17,6 +17,31 @@ url = "/#start"
 weight = 2
 
 [[menu.main]]
-name = "Layout"
-url = "/#layout"
+name = "Layous"
+url = "/#layouts"
 weight = 3
+
+[[menu.main]]
+name = "Grids"
+url = "/#grids"
+weight = 4
+
+[[menu.main]]
+name = "Menus"
+url = "/#menus"
+weight = 5
+
+[[menu.main]]
+name = "Tables"
+url = "/#tables"
+weight = 6
+
+[[menu.main]]
+name = "Buttons"
+url = "/#buttons"
+weight = 7
+
+[[menu.main]]
+name = "Icons"
+url = "/#icons"
+weight = 8

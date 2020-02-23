@@ -1,7 +1,7 @@
 <header id="header">
   <h1><a href="{{ .Site.BaseURL }}" title="{{ .Site.Title }}">{{ .Site.Title }}</a></h1>
   <nav id="nav">
-    <button id="btn-menu">三</button>
+    <button class="toggle" id="toggle"><span></span><span></span><span></span></button>
     <ul>
       {{ $currentPage := . }}
       {{ range .Site.Menus.main }}
