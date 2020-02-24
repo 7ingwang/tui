@@ -21,6 +21,15 @@ ul,li{ list-style: none;}
 .flex-wrap{ flex-wrap: wrap;}
 .flex-wrap-rev{ flex-wrap: wrap-reverse;}
 
+/* table */
+table{ border-collapse: collapse; border-spacing:0; width: 100%; border-top: 1px solid #DDD;}
+thead th{ border-bottom: 1px solid #CCC;}
+th+th, td+td{ border-left: 1px solid #DDD;}
+th, td{ padding: .5rem 1rem; border-bottom: 1px solid #DDD; text-align: center;}
+th{ background: #EEE;}
+tr:hover{ background: #F9F9F9;}
+
+
 /* code */
 pre{ background: #F9F9F9; border: 1px solid #F3F3F3;}
 code{ line-height: 2;}
