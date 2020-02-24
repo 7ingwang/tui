@@ -1,12 +1,12 @@
 <header id="header">
   <h1><a href="{{ .Site.BaseURL }}" title="{{ .Site.Title }}">{{ .Site.Title }}</a></h1>
   <nav id="nav">
-    <button class="toggle" id="toggle"><span></span><span></span><span></span></button>
+    <button class="toggle" id="toggle" onclick="toggleNav()"><span></span><span></span><span></span></button>
     <ul>
       {{ $currentPage := . }}
       {{ range .Site.Menus.main }}
       <li class="nav-item{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{end}}">
-        <a class="nav-link" href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
+        <a class="nav-link" href="{{ .URL }}" title="{{ .Title }}" onclick="removeNav()">{{ .Name }}</a>
       </li>
       {{ end }}
     </ul>

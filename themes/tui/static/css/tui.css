@@ -8,6 +8,9 @@ h2, h3, h4, h5, h6{ margin-bottom: 1rem;}
 h2{ font-size: 1.5rem;}
 ul,li{ list-style: none;}
 
+/* general */
+.show{ display: block !important;}
+
 /* flex */
 [class*="flex-"], [class*=" flex-"]{ display: flex;}
 .flex-start{ justify-content: flex-start;}
@@ -35,7 +38,7 @@ button{ border: none;}
 .btn-success{ background: #00B894; color: #FFF;}
 
 
-.toggle{ padding: 0 6px; border: none; border-radius: 0 3px 3px 0; background: #2D4488; opacity: .6;}
+.toggle{ padding: 0 6px; border: none; border-radius: 0 3px 3px 0; background: #2D4488; opacity: .9;}
 .toggle span{ content: ""; display: block; height: 1px; background: #FFF; transition: all .3s ease;}
 .toggle span:nth-child(2){ margin: 6px 0;}
 
@@ -46,7 +49,7 @@ button{ border: none;}
 [class^="col-"], [class*=" col-"] { display: block; width: 100%; margin-bottom: 1rem; min-height: 4rem; border: 1px dashed #CCC; text-align: center; line-height: 4rem; color: #666;}
 
 /* header */
-#header{ position: fixed; left: calc(-10vw - 2rem); top: 0; bottom: 0; padding: 1rem; width: 10vw; background: #2D4488; color: #FFF; transition: all .3s ease;}
+#header{ position: fixed; left: calc(-10vw - 2rem); top: 0; bottom: 0; padding: 1rem; width: 10vw; background: #2D4488; color: #FFF; transition: all .3s ease; z-index: 1;}
 #header.open{ left: 0; width: 60vw;}
 #header a{ color: #FFF;}
 h1{ margin-bottom: 1rem;}
@@ -69,7 +72,8 @@ h1{ margin-bottom: 1rem;}
 .menu li.active a{ color: #0984E3;}
 .menu li.active:after{ position: absolute; bottom: 2px; content: ""; display: block; width: 100%; height: 2px; background: #0984E3;}
 .menu li.has-submenu{}
-/* .menu li.has-submenu .submenu{ display: none;} */
+.menu li.has-submenu .submenu{ display: none;}
+.menu li.has-submenu:active .submenu{ display: block;}
 .menu li.has-submenu .submenu li+li{ margin-left: inherit;}
 
 /* content */
