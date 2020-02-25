@@ -26,8 +26,10 @@ table{ border-collapse: collapse; border-spacing:0; width: 100%; border-top: 1px
 thead th{ border-bottom: 1px solid #CCC;}
 th+th, td+td{ border-left: 1px solid #DDD;}
 th, td{ padding: .5rem 1rem; border-bottom: 1px solid #DDD; text-align: center;}
-th{ background: #EEE;}
+th{ background: #EEE; font-weight: bold;}
 tr:hover{ background: #F9F9F9;}
+/* tr:nth-child(even){} */
+tr td:even-child{ text-align: left;}
 
 
 /* code */
@@ -45,6 +47,13 @@ button{ border: none;}
 .btn-main{ background: #0984E3; color: #FFF;}
 .btn-warning{ background: #FFEAA7; color: #AD9E6F;}
 .btn-success{ background: #00B894; color: #FFF;}
+
+/* btns */
+.btns{ display: flex; justify-content: center;}
+.btns .btn{ border-radius: 0;}
+.btns .btn:first-child{ border-radius: .3rem 0 0 .3rem;}
+.btns .btn:last-child{ border-radius: 0 .3rem .3rem 0;}
+.btns .btn+.btn{ border-left: 1px solid #FFF;}
 
 
 .toggle{ padding: 0 6px; border: none; border-radius: 0 3px 3px 0; background: #2D4488; opacity: .9;}
@@ -85,6 +94,10 @@ h1{ margin-bottom: 1rem;}
 .menu li.has-submenu .submenu a:after{ display: none;}
 .menu li.has-submenu:active .submenu{ display: block;}
 .menu li.has-submenu .submenu li+li{ margin-left: inherit;}
+
+/* list */
+.list li{ height: 3rem; line-height: 3rem; border-top: 1px solid #DDD;}
+.list li:hover{ background: #F9F9F9;}
 
 /* content */
 #content{ padding: 1rem;}
