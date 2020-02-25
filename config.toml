@@ -45,3 +45,8 @@ weight = 7
 name = "Icons"
 url = "/#icons"
 weight = 8
+
+[[menu.main]]
+name = "List"
+url = "/#list"
+weight = 9

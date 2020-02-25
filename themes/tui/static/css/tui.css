@@ -96,8 +96,9 @@ h1{ margin-bottom: 1rem;}
 .menu li.has-submenu .submenu li+li{ margin-left: inherit;}
 
 /* list */
-.list li{ height: 3rem; line-height: 3rem; border-top: 1px solid #DDD;}
+.list li{ display: flex; justify-content: space-between; height: 3rem; line-height: 3rem; border-top: 1px solid #DDD;}
 .list li:hover{ background: #F9F9F9;}
+.list li span{ color: #999;}
 
 /* content */
 #content{ padding: 1rem;}
