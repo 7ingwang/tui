@@ -32,6 +32,8 @@ tr:hover{ background: #F9F9F9;}
 /* tr:nth-child(even){} */
 tr td:even-child{ text-align: left;}
 
+/* avatar */
+.avatar{ border-radius: 50%;}
 
 /* code */
 pre{ background: #F9F9F9; border: 1px solid #F3F3F3;}
@@ -56,11 +58,12 @@ button{ border: none;}
 .btns .btn:last-child{ border-radius: 0 .3rem .3rem 0;}
 .btns .btn+.btn{ border-left: 1px solid #FFF;}
 
-
+/* toggle menu */
 .toggle{ padding: 0 6px; border: none; border-radius: 0 3px 3px 0; background: #2D4488; opacity: .9;}
 .toggle span{ content: ""; display: block; height: 1px; background: #FFF; transition: all .3s ease;}
 .toggle span:nth-child(2){ margin: 6px 0;}
 
+/* blank */
 .blank{ margin-bottom: 1rem; min-height: 30vh; border: 1px dashed #ddd;}
 
 /* grids */
