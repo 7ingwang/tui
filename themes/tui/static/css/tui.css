@@ -7,6 +7,7 @@ a:hover{ opacity: .5; transition: all .3s ease;}
 h2, h3, h4, h5, h6{ margin-bottom: 1rem;}
 h2{ font-size: 1.5rem;}
 ul,li{ list-style: none;}
+img{ object-fit: cover;}
 
 /* general */
 .show{ display: block !important;}
