@@ -47,6 +47,16 @@ url = "/#icons"
 weight = 8
 
 [[menu.main]]
+name = "Images"
+url = "/#images"
+weight = 9
+
+[[menu.main]]
 name = "List"
 url = "/#list"
-weight = 9
+weight = 10
+
+[[menu.main]]
+name = "Forms"
+url = "/#forms"
+weight = 11

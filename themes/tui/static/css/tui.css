@@ -32,6 +32,15 @@ tr:hover{ background: #F9F9F9;}
 /* tr:nth-child(even){} */
 tr td:even-child{ text-align: left;}
 
+/* from */
+.form{ display: flex; flex-direction: column;}
+.form .form-item{ margin-bottom: 1rem;}
+.form-input{ padding: .6rem .3rem; border: 1px solid #DFDFDF; border-radius: 3px; font-size: 1rem;}
+
+.form-inline{}
+.form-inline .form-item+.form-item{ margin-left: .1rem;}
+
+
 /* avatar */
 .avatar{ border-radius: 50%;}
 
