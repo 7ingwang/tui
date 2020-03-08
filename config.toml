@@ -60,3 +60,8 @@ weight = 10
 name = "Forms"
 url = "/#forms"
 weight = 11
+
+[[menu.main]]
+name = "Texts"
+url = "/#texts"
+weight = 12

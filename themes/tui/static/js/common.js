@@ -6,7 +6,6 @@
 // });
 
 
-
 function toggleNav() {
   document.getElementById("header").classList.toggle("open");
 }
